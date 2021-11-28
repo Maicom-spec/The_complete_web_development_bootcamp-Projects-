@@ -1,0 +1,17 @@
+{
+  "name": "newsletter_site",
+  "version": "1.0.0",
+  "description": "Um site de newsletter utilizando node, express, com a api do mailchimp e com deploy no heroku",
+  "main": "app.js",
+  "scripts": {
+    "dev": "node .",
+    "server":"nodemon ."
+  },
+  "author": "Maicom Castro",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7",
+    "request": "^2.88.2"
+  }
+}
